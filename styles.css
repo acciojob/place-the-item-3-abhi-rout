@@ -1,2 +1,23 @@
+.holder{
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    height:300px;
+    flex-wrap: wrap;
+}
+.holder>div{
 
-/* Your CSS Code here. */
+    width:10%;
+    height:50%;
+}
+.pic1{
+    background-color: red;
+}
+.pic2{
+    background-color: green;
+}
+.pic3{
+    background-color: blanchedalmond;
+}
